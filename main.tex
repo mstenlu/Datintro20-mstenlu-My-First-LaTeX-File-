@@ -1,0 +1,55 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english, swedish]{babel}
+\usepackage{biblatex}
+\addbibresource{literature.bib}
+\usepackage{listings}
+
+
+
+\title{Datintro20-mstenlu (My First LaTeX File)}
+\author{Martin Stenlund}
+\date{\today}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+%Section 1
+\section[Section 1]{This document's first section}
+This text belongs to the first section. This text belongs to the first section. This text belongs to the first section. This text belongs to the first section. This text belongs to the first section. This text belongs to the first section. 
+\subsection{This documents first subsection}
+This text belongs to the first subsection. This text belongs to the first subsection.This text belongs to the first subsection.This text belongs to the first subsection.This text belongs to the first subsection.
+
+%Section 2
+\section[Section 1]{This document's second section}
+This text belongs to the second section. This text belongs to the second section.This text belongs to the second section.This text belongs to the second section.This text belongs to the second section.This text belongs to the second section.
+\subsection{This document's second subsection}
+This text belongs to the first subsection. This text belongs to the first subsection. This text belongs to the first subsection. This text belongs to the first subsection. This text belongs to the first subsection. This text belongs to the first subsection. 
+
+
+%Section 3
+\section[Section 3]{This section contains a citation to a well known author}
+According to 
+\textcite{Knuth}..there is a blue elephant in the bathroom.
+
+%Section 4
+\section[Section 4]{In this section there will be a simple mathematics figure}
+
+\begin{figure}
+    \centering
+    \includegraphics{}
+    \caption{Caption}
+    \label{fig:my_label}
+\end{figure}
+
+\sum{a*b}
+
+
+
+\printbibliography
+
+
+
+\end{document}
